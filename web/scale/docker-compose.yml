@@ -1,0 +1,5 @@
+services:
+  scale:
+    image: stenote/nginx-hostname
+    expose:
+      - "80"
